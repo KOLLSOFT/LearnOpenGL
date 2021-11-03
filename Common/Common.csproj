@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <PackageVersion>1.0.1</PackageVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="OpenTK" Version="4.6.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Shaders\shader.frag" />
+      <EmbeddedResource Include="Shaders\shader.vert" />
+      <EmbeddedResource Include="Shaders\shader_vert_color.frag" />
+      <EmbeddedResource Include="Shaders\shader_vert_color.vert" />
+    </ItemGroup>
+
+</Project>
