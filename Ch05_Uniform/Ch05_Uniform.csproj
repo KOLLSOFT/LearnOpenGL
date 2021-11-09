@@ -6,22 +6,22 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="OpenTK" Version="4.6.7" />
+    </ItemGroup>
+
+    <ItemGroup>
       <ProjectReference Include="..\Common\Common.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Include="..\Common\Shaders\shader_vert_color.frag">
-        <Link>Shaders\shader_vert_color.frag</Link>
+      <EmbeddedResource Include="..\Common\Shaders\shader_uniform_color.frag">
+        <Link>shader_uniform_color.frag</Link>
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </EmbeddedResource>
-      <EmbeddedResource Include="..\Common\Shaders\shader_vert_color.vert">
-        <Link>Shaders\shader_vert_color.vert</Link>
+      <EmbeddedResource Include="..\Common\Shaders\shader_uniform_color.vert">
+        <Link>shader_uniform_color.vert</Link>
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </EmbeddedResource>
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="OpenTK" Version="4.6.7" />
     </ItemGroup>
 
 </Project>

@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch03_InsAndOuts", "Ch03_Ins
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch04_ColorfulTriangle", "Ch04_ColorfulTriangle\Ch04_ColorfulTriangle.csproj", "{483F95DF-F8AA-455A-9073-4AC087DA9782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch05_Uniform", "Ch05_Uniform\Ch05_Uniform.csproj", "{E259694E-637E-454C-AA1A-1F8681383545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch06_Texture", "Ch06_Texture\Ch06_Texture.csproj", "{45BBDA51-141F-49F9-863B-1090547A2856}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{483F95DF-F8AA-455A-9073-4AC087DA9782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{483F95DF-F8AA-455A-9073-4AC087DA9782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{483F95DF-F8AA-455A-9073-4AC087DA9782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E259694E-637E-454C-AA1A-1F8681383545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E259694E-637E-454C-AA1A-1F8681383545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E259694E-637E-454C-AA1A-1F8681383545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E259694E-637E-454C-AA1A-1F8681383545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BBDA51-141F-49F9-863B-1090547A2856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BBDA51-141F-49F9-863B-1090547A2856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BBDA51-141F-49F9-863B-1090547A2856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BBDA51-141F-49F9-863B-1090547A2856}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

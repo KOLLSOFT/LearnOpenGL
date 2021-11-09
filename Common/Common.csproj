@@ -7,13 +7,34 @@
 
     <ItemGroup>
       <PackageReference Include="OpenTK" Version="4.6.7" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Include="Shaders\shader.frag" />
       <EmbeddedResource Include="Shaders\shader.vert" />
+      <EmbeddedResource Include="Shaders\shader_uniform_color.frag">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
       <EmbeddedResource Include="Shaders\shader_vert_color.frag" />
       <EmbeddedResource Include="Shaders\shader_vert_color.vert" />
+      <None Remove="Shaders\shader_uniform_color.frag" />
+      <None Remove="Shaders\shader_uniform_color.vert" />
+      <EmbeddedResource Include="Shaders\shader_uniform_color.vert">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Shaders\shader_texture.frag" />
+      <EmbeddedResource Include="Shaders\shader_texture.frag">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Shaders\shader_texture.vert" />
+      <EmbeddedResource Include="Shaders\shader_texture.vert">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Resources" />
     </ItemGroup>
 
 </Project>
