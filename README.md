@@ -1,5 +1,5 @@
 # LearnOpenGL
-learn OpenGLES3 with OpenKT(C#) library.
+learn OpenGLES3 with OpenTK(C#) library.
 
 ### ch01-
 ### ch02-
